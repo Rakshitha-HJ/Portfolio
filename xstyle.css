@@ -1,0 +1,137 @@
+
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #C8BFC7;
+    color: #7F055F;
+    margin: 0;
+    padding: 0;
+}
+/* styling for a container element that wraps content */
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;/* centering the container horizontally */
+    padding: 0 20px;/* adding padding to the left and right */
+}
+
+
+nav{
+    position: sticky;
+    top: 0;
+    background-color: #C19875;
+    padding: 20px 0;/* adding padding to top and bottom */
+}
+
+/* styling for the heading within the navigation*/
+nav h1{
+    margin: 0;
+    display: inline;/* displaying heading inline*/
+}
+
+/* styling for the unodered list within the navigation bar */
+nav ul{
+    list-style-type: none; /* removing bullet points */
+    margin: 0;/* restting margin and padding*/
+    padding: 0;
+    float: right;
+}
+/* styling for the links within the navigation bar*/
+nav ul li{
+    display: inline;/* Displaying list items inline */
+    margin-left: 20px;/* adding left margin between list items*/
+}
+/* styling for the link within navigation bar */
+nav ul li a{
+    color: #264653;
+    text-decoration: none;/* removing underline from the links */
+    transition: 0.5s;
+}
+nav ul li a:hover{
+    padding: 10px;
+    background-color: #8C001A;
+    color: #E0BE36;
+
+}
+
+/* styling for header section */
+header{
+    background-color: #F2E3BC;
+    padding: 20px 0;/* adding padding to the top and bottom*/
+}
+
+/* styling for the profile section */
+.profile{
+    display: flex; /* using flexbox for layout */
+    align-items: center; /* aliging items vertically */
+}
+
+/* styling for profile pic */
+.profile-pic{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid #69140E;
+    margin-right: 20px; /* to provide space b/w image and paragraph */
+
+}
+/* styling for main content section */
+main{
+    padding: 20px 0;
+}
+/* styling for section */
+section{
+    margin-bottom: 40px;
+}
+ /* styling for section headings */
+ section h2{
+    color: #CB904D;
+ }
+ #contact{
+    background-color: burlywood;
+    padding: 40px 0;
+    text-align: center;
+ }
+
+ /* styling for contact logo */
+ .contact-head{
+    margin-bottom: 20px;/* adding bottom margin */
+
+ }
+ /* styling for the contact info */
+ .contact-info{
+    color: #7F055F;
+ }
+
+ .contact-info p{
+    margin-bottom: 0;/* adding margin bottom */
+ }
+
+ .contact-info ul{
+    list-style-type: none;/* removing bullets points*/
+    padding: 0;/* resetting padding */ 
+    
+ }
+ .contact-info ul li {
+    display: inline;/* displaying list items inline */
+    margin: 0 10px;
+ }
+
+ .insta{
+    width: 70px;
+    height: 70px;
+    border-radius: 25%;
+ }
+ .insta:hover{
+    opacity: 0.7;/*reduce opacity on hover */
+    cursor: pointer;
+ }
+ .snap{
+    width: 70px;
+    height: 70px;
+    border-radius: 25%;
+ }
+ .snap:hover{
+    opacity: 0.7;/*reduce opacity on hover */
+    cursor: pointer;
+ }
